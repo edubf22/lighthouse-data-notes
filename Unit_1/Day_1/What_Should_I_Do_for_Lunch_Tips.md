@@ -7,7 +7,7 @@ Work on your code iteratively - that means in small pieces.
 To help you figure out how to use `hungry` and `availableTime` inside your function, try outputting their values to the Terminal as follows.
 
 ```python
-define whatToDoForLunch(hungry, availableTime):
+def whatToDoForLunch(hungry, availableTime):
     print("hungry is", hungry)
     print("availableTime is", availableTime)
 
