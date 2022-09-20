@@ -9,4 +9,4 @@ This repository contains all of the notes taken by [Edu](https://github.com/edub
 
 
 ### Day 1
-Today, we focused on BASH coding and learned basics of VSC, GitHub, and more.
+We practiced data manipulation using BASH, as well as using VisualCode to work in repositories and GitHub. Got API keys for Twitter and Foursquare.
