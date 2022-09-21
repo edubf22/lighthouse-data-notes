@@ -5,3 +5,5 @@
 - Shallow and deep copies in pyhton
 - Class was review of python foundations
 - Collections - additional module with neat functions to work with different containers
+- Datetime functions, and using pandas library to work with dates
+- Python challenges (how to come up with a function to check combination of cards in poker)
