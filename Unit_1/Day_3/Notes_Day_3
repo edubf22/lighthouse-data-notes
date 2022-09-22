@@ -1,0 +1,16 @@
+# Day 3
+
+- **APIs** are used to interface between two computer, one sending a request and another sending information back
+- **XML**: extensible markup language. It is used to describe data and is slowly being replaced by **JSON**, although it is still very important.
+  - In XML, tags are defined by the user, which should be self explanatory.
+  - Most importantly, it can be shared across different platforms, allowing data to always be accessible and not lost.
+- **JSON**: JavaScript Object Notation. Also a text format like XML, but incorporates conventions familiar to programming languages, such as Python.
+- **Postman**: tool for testing APIs. Downloaded Ubuntu version by using:
+```bash
+sudo snap install postman
+```
+- Foursquare API: make sure to include Authorization key and API key as corresponding value in order to have permission. Make sure to store API key in a safe place!
+- REST APIs are the type of API that we will use the most as data scientists
+- Requests through Python: need to import requests library
+- To interact with a given API, we may get API wrappers available on the web, such as the python-twitter wrapper
+
