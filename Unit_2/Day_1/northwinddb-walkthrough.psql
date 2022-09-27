@@ -1,0 +1,29 @@
+/* Task 1: Write a query that returns
+a product name and its quantity/unit
+*/
+
+SELECT 
+    products.productname, products.quantityperunit
+FROM
+    products;
+
+/*Task 2: Write a query to select all product names 
+and their category ID
+*/
+
+SELECT 
+    products.productname, products.categoryid
+FROM
+    products;
+
+/*Task 3: Write a query to get the firstname, lastname and hiredate 
+for employees who have been working at their company for 
+more than 5 years
+*/
+
+SELECT
+    e.firstname, e.lastname, e.hiredate
+FROM
+    employees e
+WHERE
+    e.hiredate < now() - '5 years' :: interval;
